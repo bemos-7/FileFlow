@@ -1,3 +1,5 @@
+[Русский](README.md) | [English](README.en.md)
+
 # FileFlow
 
 FileFlow is a local application for organizing files on your computer.
@@ -77,7 +79,3 @@ Requires JDK 21 (JBR recommended).
 ## License
 
 Section reserved for later decision.
-
----
-
-[Русский](README.md) | [English](README.en.md)
