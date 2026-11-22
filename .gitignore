@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+app/build/
+*.gradle.local
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+AGENTS.md
+local.properties
+*.log
