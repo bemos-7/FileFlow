@@ -23,7 +23,8 @@ compose.desktop {
             targetFormats(org.jetbrains.compose.desktop.application.dsl.TargetFormat.Dmg, org.jetbrains.compose.desktop.application.dsl.TargetFormat.Msi, org.jetbrains.compose.desktop.application.dsl.TargetFormat.Deb)
             packageName = "FileFlow"
             packageVersion = "1.0.0"
-            macOS { iconFile.set(project.file("src/main/resources/app-icon.png")) }
+            modules("java.sql")
+            macOS { iconFile.set(project.file("src/main/resources/app-icon.icns")) }
             windows { iconFile.set(project.file("src/main/resources/app-icon.png")) }
             linux { iconFile.set(project.file("src/main/resources/app-icon.png")) }
         }
